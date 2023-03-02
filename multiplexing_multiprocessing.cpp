@@ -4,7 +4,6 @@ int main() {
 
   struct addrinfo hints;
   struct addrinfo *bind_address;
-  int sock;
 
   std::cout << "local address configuration " << std::endl;
   memset(&hints, 0, sizeof(hints));

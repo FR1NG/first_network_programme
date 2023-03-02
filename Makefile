@@ -1,7 +1,7 @@
 CPP=c++
 CFLAGS=-Wall -Wextra -Werror -std=c++98
 NAME=server
-SRC=time_server.cpp
+SRC=multiplexing_select.cpp signal.cpp
 OBJ=$(SRC:.cpp=.o)
 
 all: $(NAME)

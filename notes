@@ -1,0 +1,5 @@
+recv returns 0 or -1 in case of client disconnected , look for each one of them when it is returned
+there is c++ networking stl standard library for network programmin but is is only available on c++20
+there is no guarantee that recv returns null terminated string, so this will be handled by the number of bits recieved
+if you dident close the socket the client will remain waiting for data until it times out
+[inetd] a service on linux and mac os turn console-only application to network once, look for it for more details

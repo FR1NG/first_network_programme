@@ -12,6 +12,9 @@
 #include <netdb.h>
 #include <unistd.h>
 
+int sock;
+void handle_sig(int signal);
+
 /*
 *           struct addrinfo {
 *               int              ai_flags;
